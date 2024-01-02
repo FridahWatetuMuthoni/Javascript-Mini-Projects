@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+
+.timerBtn{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid;
+    border-radius: 12px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#timeDisplay{
+    font-size: 90px;
+    color: #40c437;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.time_container{
+    border: 3px solid;
+    border-radius: 25px;
+    background-color: #222222;
+    padding: 30px;
+}
